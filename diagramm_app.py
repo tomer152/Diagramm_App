@@ -78,7 +78,7 @@ fig.update_layout(
         zeroline=True,
         zerolinecolor="gray",
         zerolinewidth=2,
-        range=[0, 6.5]
+        range=[0, 6.5],
         dtick=1
     ),
     yaxis=dict(
