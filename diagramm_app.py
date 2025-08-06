@@ -71,8 +71,7 @@ fig.add_shape(
 fig.update_layout(
     title="Wettbewerbsprofil (interaktiv)",
     xaxis=dict(
-        title="Bewertung",
-        titlefont=dict(color="black"),
+        title=dict(text="Bewertung", font=dict(color="black")),
         tickfont=dict(color="black"),
         showgrid=True,
         gridcolor="lightgray",
@@ -82,8 +81,7 @@ fig.update_layout(
         range=[0, 6.5]
     ),
     yaxis=dict(
-        title="Kriterien",
-        titlefont=dict(color="black"),
+        title=dict(text="Kriterien", font=dict(color="black")),
         tickfont=dict(color="black"),
         showgrid=True,
         gridcolor="lightgray",
