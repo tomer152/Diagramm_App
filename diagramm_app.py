@@ -72,6 +72,8 @@ fig.update_layout(
     title="Wettbewerbsprofil (interaktiv)",
     xaxis=dict(
         title="Bewertung",
+        titlefont=dict(color="black"),
+        tickfont=dict(color="black"),
         showgrid=True,
         gridcolor="lightgray",
         zeroline=True,
@@ -81,10 +83,15 @@ fig.update_layout(
     ),
     yaxis=dict(
         title="Kriterien",
+        titlefont=dict(color="black"),
+        tickfont=dict(color="black"),
         showgrid=True,
         gridcolor="lightgray",
         zeroline=False,
         autorange="reversed"
+    ),
+        legend=dict(
+        font=dict(color="black")
     ),
     plot_bgcolor="white",
     paper_bgcolor="white",
