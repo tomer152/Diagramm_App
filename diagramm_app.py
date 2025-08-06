@@ -69,7 +69,10 @@ fig.add_shape(
 )
 
 fig.update_layout(
-    title="Wettbewerbsprofil (interaktiv)",
+    title=dict(
+        text="Wettbewerbsprofil (interaktiv)",
+        font=dict(color="black")
+    ),
     xaxis=dict(
         title=dict(text="Bewertung", font=dict(color="black")),
         tickfont=dict(color="black"),
