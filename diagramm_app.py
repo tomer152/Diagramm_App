@@ -77,8 +77,9 @@ fig.update_layout(
         gridcolor="lightgray",
         zeroline=True,
         zerolinecolor="gray",
-        zerolinewidth=1,
+        zerolinewidth=2,
         range=[0, 6.5]
+        dtick=1
     ),
     yaxis=dict(
         title=dict(text="Kriterien", font=dict(color="black")),
