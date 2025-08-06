@@ -24,7 +24,9 @@ default_data = pd.DataFrame({
     "BWF Target": [5, 6, 5, 5, 5, 5, 3],
     "Competitor 1": [3, 2, 4.5, 4, 4.5, 5, 4.5],
     "Competitor 2": [4.5, 3, 2, 2, 2, 4.5, 4.5],
-    "Competitor 3": [2.5, 3, 4, 3.5, 2.5, 2, 2]
+    "Competitor 3": [2.5, 3, 4, 3.5, 2.5, 2, 2],
+    "Competitor 4": [4.5, 2, 4, 5, 5, 6, 2],
+    "Competitor 5": [2.5, 1, 6, 3.5, 4, 2, 1],
 })
 
 st.title("🧮 Wettbewerbsvergleich")
